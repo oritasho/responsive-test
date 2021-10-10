@@ -1,0 +1,86 @@
+body{
+  font-family: 'Shippori Mincho', serif;
+}
+
+.firstview{
+  background:url(../img/firstview.png)no-repeat top;
+  background-size:cover;
+  height:600px;
+  display:flex;
+  position:relative;
+}
+
+h1{
+  font-size:22px;
+  color:white;
+  margin:20px;
+}
+
+.menu{
+  display:flex;
+  color:white;
+  text-decoration:none;
+}
+
+li{
+  padding:20px;
+  list-style:none;
+}
+
+.firstview-title{
+  color:white;
+  position:absolute;
+  top:300px;
+  left:80px;
+}
+
+.firstview-title1{
+  font-size:60px;
+}
+
+.firstview-title2{
+  text-align:center;
+  font-size:22px;
+  margin-top:10px;
+}
+
+.blog{
+  height:300px;
+  position:relative;
+  width:33%;
+  display:block;
+}
+
+.life-img{
+  background:url(../img/topics-img1.png)no-repeat;
+  background-size:cover;
+}
+
+.important-img{
+  background:url(../img/topics-img2.png)no-repeat;
+  background-size:cover;
+
+}
+
+.culture-img{
+  background:url(../img/topics-img3.png)no-repeat;
+  background-size:cover;
+  width:100%;
+  height:auto;
+}
+
+@media screen and(max-width:480px){
+
+}
+
+@media screen and(max-width:768px){
+  .life-title{
+    font-size:20px;
+  }
+  .important-title{
+    font-size:20px;
+  }
+  .culture-title{
+    font-size:20px;
+  }
+}
